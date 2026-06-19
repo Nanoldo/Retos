@@ -1,0 +1,35 @@
+ciudad,temperatura,unidad
+Caracas,53.1,F
+Roma , 120 , f
+Dubai,67.5,
+Estocolmo,9.1,F
+Bangkok,13.9,c
+Seattle,-21.3,C
+
+Moscu,81.8,F
+Londres,5.9,
+Cairo,8.8,C
+CDMX,20.6,C
+Bogota,118.8,F
+Nueva York, fghnf,c
+Cancun , 64, F
+Los Angeles,-15.8,C
+Varsovia,-5.1,C
+Lima,20.6,F
+Buenos Aires,-21.2,C
+Toronto,fefef,F
+Santiago, 49.7,C
+
+Phoenix,15.1,C
+Helsinki,4,C
+Guadalajara,18.5, f
+Atenas,4,F
+Lisboa,-23.9,
+
+Berlin , 38.6 ,F
+Ankara,118.5,F
+Reykjavik ,72.7,F
+Tijuana, 5.2,C
+Melbourne ,42.2,f
+Honolulu,81,
+

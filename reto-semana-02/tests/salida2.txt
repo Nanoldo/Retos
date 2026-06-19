@@ -1,0 +1,51 @@
+ciudad,temperatura_celsius,clasificacion
+Melbourne,-17.6,Congelante
+Nueva York,40.3,Extremo
+Lima,12.1,Frio
+Guadalajara,38.6,Extremo
+Ankara,-19.2,Congelante
+Puebla,-2.3,Congelante
+Sydney,41.9,Extremo
+Boston,21.3,Templado
+Estocolmo,38.7,Extremo
+Houston,1.2,Frio
+Roma,-23.9,Congelante
+Tijuana,5.8,Frio
+Atenas,37.3,Extremo
+Phoenix,18.9,Templado
+Cancun,-24.6,Congelante
+Paris,45.8,Extremo
+Auckland,-15.3,Congelante
+Bogota,7.3,Frio
+Singapur,-9.8,Congelante
+Pekín,-0.2,Congelante
+Buenos Aires,29.3,Calido
+Monterrey,-29.1,Congelante
+Mumbai,25.8,Calido
+Madrid,-19.2,Congelante
+Cairo,19.2,Templado
+Reykjavik,3.2,Frio
+Santiago,39.8,Extremo
+Lagos,36.9,Extremo
+Dubai,6.2,Frio
+CDMX,13.7,Frio
+Helsinki,42.7,Extremo
+Honolulu,-25.4,Congelante
+Seattle,46.2,Extremo
+Bangkok,23.2,Templado
+Caracas,-12.5,Congelante
+Budapest,-19.2,Congelante
+Moscu,-2.1,Congelante
+Nairobi,-13.7,Congelante
+Varsovia,39.2,Extremo
+Londres,46.8,Extremo
+Tokio,36.3,Extremo
+Chicago,5.9,Frio
+Los Angeles,20.7,Templado
+Las Vegas,-15.4,Congelante
+Toronto,14.2,Frio
+Denver,46.4,Extremo
+Oslo,-14.9,Congelante
+Miami,11.6,Frio
+Berlin,43.8,Extremo
+Lisboa,42.5,Extremo

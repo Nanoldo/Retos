@@ -1,0 +1,7 @@
+nombre_columna,tipo_inferido,total_registros,valores_nulos,porcentaje_nulos,valores_unicos,porcentaje_unicos,ejemplo_valor
+id,numerico,5,0,0.00,5,100.00,1
+nombre,texto,5,1,20.00,4,80.00,Ana Garcia
+email,texto,5,1,20.00,4,80.00,ana@empresa.com
+departamento,texto,5,1,20.00,3,60.00,TI
+salario,numerico,5,0,0.00,5,100.00,45000.00
+activo,booleano,5,0,0.00,2,40.00,true

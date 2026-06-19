@@ -1,0 +1,51 @@
+ciudad,temperatura,unidad
+Melbourne,0.3,F
+Nueva York,40.3,C
+Lima,53.8,F
+Guadalajara,101.5,F
+Ankara,-19.2,C
+Puebla,-2.3,C
+Sydney,41.9,C
+Boston,21.3,C
+Estocolmo,38.7,C
+Houston,1.2,C
+Roma,-23.9,C
+Tijuana,5.8,C
+Atenas,37.3,C
+Phoenix,18.9,C
+Cancun,-12.3,F
+Paris,45.8,C
+Auckland,4.5,F
+Bogota,7.3,C
+Singapur,14.3,F
+Pekín,-0.2,C
+Buenos Aires,84.8,F
+Monterrey,-20.3,F
+Mumbai,78.5,F
+Madrid,-19.2,C
+Cairo,19.2,C
+Reykjavik,37.8,F
+Santiago,103.7,F
+Lagos,36.9,C
+Dubai,43.1,F
+CDMX,13.7,C
+Helsinki,42.7,C
+Honolulu,-13.8,F
+Seattle,115.2,F
+Bangkok,23.2,C
+Caracas,-12.5,C
+Budapest,-19.2,C
+Moscu,28.2,F
+Nairobi,-13.7,C
+Varsovia,39.2,C
+Londres,116.3,F
+Tokio,97.4,F
+Chicago,42.7,F
+Los Angeles,69.2,F
+Las Vegas,-15.4,C
+Toronto,57.5,F
+Denver,115.6,F
+Oslo,-14.9,C
+Miami,52.8,F
+Berlin,43.8,C
+Lisboa,42.5,C

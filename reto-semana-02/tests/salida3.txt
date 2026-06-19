@@ -1,0 +1,25 @@
+ciudad,temperatura_celsius,clasificacion
+Caracas,11.7,Frio
+Roma,48.9,Extremo
+Estocolmo,-12.7,Congelante
+Bangkok,13.9,Frio
+Seattle,-21.3,Congelante
+Moscu,27.7,Calido
+Cairo,8.8,Frio
+CDMX,20.6,Templado
+Bogota,48.2,Extremo
+Cancun,17.8,Templado
+Los Angeles,-15.8,Congelante
+Varsovia,-5.1,Congelante
+Lima,-6.3,Congelante
+Buenos Aires,-21.2,Congelante
+Santiago,49.7,Extremo
+Phoenix,15.1,Templado
+Helsinki,4.0,Frio
+Guadalajara,-7.5,Congelante
+Atenas,-15.6,Congelante
+Berlin,3.7,Frio
+Ankara,48.1,Extremo
+Reykjavik,22.6,Templado
+Tijuana,5.2,Frio
+Melbourne,5.7,Frio
