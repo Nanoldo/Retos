@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de prueba locales (opcionales en el repo)
+mi_salida.txt
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

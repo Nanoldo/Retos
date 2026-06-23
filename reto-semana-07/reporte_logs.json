@@ -1,0 +1,125 @@
+{
+  "resumen": {
+    "total_lineas": 24,
+    "por_tipo": {
+      "http": 7,
+      "error": 5,
+      "auth": 6,
+      "db": 6
+    }
+  },
+  "http": {
+    "total_requests": 7,
+    "por_status": {
+      "2xx": 4,
+      "4xx": 2,
+      "5xx": 1
+    },
+    "top_rutas": [
+      [
+        "/api/users",
+        3
+      ],
+      [
+        "/products",
+        2
+      ],
+      [
+        "/api/login",
+        1
+      ],
+      [
+        "/admin/../../../etc/passwd",
+        1
+      ]
+    ],
+    "top_ips": [
+      [
+        "192.168.1.200",
+        2
+      ],
+      [
+        "192.168.1.201",
+        2
+      ],
+      [
+        "192.168.1.100",
+        1
+      ],
+      [
+        "192.168.1.101",
+        1
+      ],
+      [
+        "192.168.1.102",
+        1
+      ]
+    ]
+  },
+  "errores": {
+    "total": 5,
+    "por_nivel": {
+      "INFO": 1,
+      "ERROR": 3,
+      "WARNING": 1
+    },
+    "por_modulo": {
+      "app.startup": 1,
+      "app.database": 1,
+      "app.cache": 1,
+      "app.auth": 1,
+      "app.api": 1
+    }
+  },
+  "seguridad": {
+    "alertas_fuerza_bruta": [
+      {
+        "ip": "192.168.1.50",
+        "intentos": 4
+      }
+    ],
+    "alertas_sql_injection": [
+      {
+        "timestamp": "2024-03-15 10:37:00",
+        "query_type": "QUERY",
+        "execution_time": 0.001,
+        "query": "SELECT * FROM users WHERE username = 'admin' OR 1=1--'"
+      },
+      {
+        "timestamp": "2024-03-15 10:38:00",
+        "query_type": "QUERY",
+        "execution_time": 0.002,
+        "query": "SELECT * FROM users UNION SELECT * FROM passwords"
+      }
+    ],
+    "alertas_path_traversal": [
+      {
+        "ip": "192.168.1.102",
+        "timestamp": "15/Mar/2024:10:23:47 -0600",
+        "method": "GET",
+        "path": "/admin/../../../etc/passwd",
+        "status": 403,
+        "bytes": 0,
+        "referer": "-",
+        "user_agent": "sqlmap/1.0"
+      }
+    ]
+  },
+  "rendimiento": {
+    "queries_lentos": [
+      {
+        "timestamp": "2024-03-15 10:36:00",
+        "query_type": "SLOW_QUERY",
+        "execution_time": 2.5,
+        "query": "SELECT * FROM orders o JOIN products p ON o.product_id = p.id JOIN users u ON o.user_id = u.id"
+      },
+      {
+        "timestamp": "2024-03-15 10:45:00",
+        "query_type": "SLOW_QUERY",
+        "execution_time": 5.2,
+        "query": "SELECT COUNT(*) FROM logs WHERE date > '2024-01-01'"
+      }
+    ],
+    "tiempo_promedio_queries": 1.2933333333333332
+  }
+}
